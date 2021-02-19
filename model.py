@@ -9,9 +9,9 @@ from sklearn.metrics import mean_absolute_error, explained_variance_score, r2_sc
 TRAIN = False
 
 # Load the data file
-df = pd.read_csv("data/sample_input.csv")
+df = pd.read_csv("data/data.csv")
 
-# Select columns according to feature importance for predicting Predictive score
+# Select columns according to precomputed feature importance for predicting Predictive score
 df = df[['predictive_score', 'relevancy_score', 'students', 'reviews', 'duration', 'rating',
          'p_level_all', 'p_level_int', 'p_level_beg', 'p_level_exp', 'last_updated', 'list_price',
          'cat_match', 'subcat_match', 'topic_match']].copy()
