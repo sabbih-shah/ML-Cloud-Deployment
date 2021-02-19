@@ -5,7 +5,7 @@ The trained model can then be deployed on both Azure machine learning and Google
 
 The project is structured as follows:
 
-**1.** The model.py reads the input dataframe and selects the column according to pre-computed feature importance. It then splits the dataframe into training and test set. Finally it performs a grid search to find the best parameters for the XGBRegressor and sva it.
+**1.** The model.py reads the input dataframe and selects the column according to pre-computed feature importance. It then splits the dataframe into training and test set. Finally, it performs a grid search to find the best parameters for the XGBRegressor and save it.
 
 **2.** The deploy folder contains two sub folders for azure and gce deployment whcich is explained in the relevant section.
 
