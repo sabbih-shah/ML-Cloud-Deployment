@@ -1,0 +1,72 @@
+{
+    "data": [
+        {
+            "relevancy_score": 1047.0189,
+            "students": 3438,
+            "reviews": 228,
+            "duration": 1.5,
+            "rating": 4.68,
+            "p_level_all": 1,
+            "p_level_int": 0,
+            "p_level_beg": 0,
+            "p_level_exp": 0,
+            "last_updated": 931,
+            "list_price": 149.99,
+            "cat_match": 0,
+            "subcat_match": 0,
+            "topic_match": 0,
+            "is_free": 0
+        },
+        {
+                      "relevancy_score": 1047.0189,
+            "students": 3438,
+            "reviews": 228,
+            "duration": 1.5,
+            "rating": 4.68,
+            "p_level_all": 1,
+            "p_level_int": 0,
+            "p_level_beg": 0,
+            "p_level_exp": 0,
+            "last_updated": 931,
+            "list_price": 149.99,
+            "cat_match": 1,
+            "subcat_match": 0,
+            "topic_match": 0,
+            "is_free": 0
+        },
+        {
+                      "relevancy_score": 1047.0189,
+            "students": 3438,
+            "reviews": 228,
+            "duration": 1.5,
+            "rating": 4.68,
+            "p_level_all": 1,
+            "p_level_int": 0,
+            "p_level_beg": 0,
+            "p_level_exp": 0,
+            "last_updated": 931,
+            "list_price": 149.99,
+            "cat_match": 1,
+            "subcat_match": 1,
+            "topic_match": 1,
+            "is_free": 0
+        },
+        {
+            "relevancy_score": 12.0725,
+            "students": 0,
+            "reviews": 0,
+            "duration": 1.5,
+            "rating": 0,
+            "p_level_all": 1,
+            "p_level_int": 0,
+            "p_level_beg": 0,
+            "p_level_exp": 0,
+            "last_updated": 2008,
+            "list_price": 19.99,
+            "cat_match": 1,
+            "subcat_match": 1,
+            "topic_match": 1,
+            "is_free": 1
+        }
+    ]
+}

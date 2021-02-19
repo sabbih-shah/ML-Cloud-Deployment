@@ -1,0 +1,16 @@
+name: production_environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.8
+  - pip=20.2
+  - gunicorn
+  - flask
+  - pip:
+      - pandas
+      - joblib
+      - azureml-core
+      - azure-ml-api-sdk
+      - xgboost
+      - applicationinsights
