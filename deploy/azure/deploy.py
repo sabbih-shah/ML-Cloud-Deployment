@@ -18,7 +18,7 @@ model = Model.register(model_path="../../models/XGBRegressor_model.pkl",
 # configure compute resources
 aciconfig = AciWebservice.deploy_configuration(cpu_cores=1,
                                                memory_gb=1,
-                                               tags={"data": "Salary", "method": "LightGBM"},
+                                               tags={"data": "Json of Features", "method": "LightGBM"},
                                                description='Predict Predictive score')
 
 # configure docker image
