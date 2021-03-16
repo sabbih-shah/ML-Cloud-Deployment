@@ -2,7 +2,7 @@ import requests
 import json
 
 # azure endpoint url
-url = "http://51921deb-5316-4825-9c2e-a49fb127c77f.westeurope.azurecontainer.io/score"
+url = "insert_endpoint_url_here"
 
 with open('data/sample_input.json') as f:
     payload = json.load(f)
