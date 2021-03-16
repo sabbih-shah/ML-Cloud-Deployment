@@ -39,5 +39,5 @@ The model can also be deployed on GCE. First, create a project on google cloud a
 
 **Testing:**
 
-Two files are provided for testing the deployed model. The azure testing file contains a live endpoint for testing and the gce testing file requires the user to enter the endpoint address after deployment. To test the live azure endpoint just execute the `test_azure_endpoint.py`.
+Two files are provided for testing the deployed model. The azure testing file contains a implementation for testing and the gce testing file requires the user to enter the endpoint address after deployment. To test the azure endpoint change url to live endpoint and just execute the `test_azure_endpoint.py`.
 
